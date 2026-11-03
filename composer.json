@@ -1,7 +1,12 @@
 {
     "name": "conquer/fontawesome",
     "description": "Yii2 fontawesome widget",
-    "keywords": ["yii2", "extension", "widget", "fontawesome"],
+    "keywords": [
+        "yii2",
+        "extension",
+        "widget",
+        "fontawesome"
+    ],
     "homepage": "https://github.com/borodulin/yii2-fontawesome",
     "type": "yii2-extension",
     "license": "MIT",
@@ -14,17 +19,17 @@
     ],
     "extra": {
         "branch-alias": {
-          "dev-master": "1.1.0.x-dev"
+            "dev-master": "1.1.0.x-dev"
         }
-      },
-    "require": {
-    	"php": ">=5.4.0",
-    	"yiisoft/yii2": "*",
-    	"bower-asset/fontawesome": "~4.3.0"
     },
-	"autoload": {
-		"psr-4": {
-			"conquer\\fontawesome\\": ""
-		}
-	}
+    "require": {
+        "php": "^7.4 || ^8.0",
+        "yiisoft/yii2": "^2.0",
+        "bower-asset/fontawesome": "~4.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "conquer\\fontawesome\\": ""
+        }
+    }
 }
